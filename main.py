@@ -124,6 +124,8 @@ while is_on:
         if answer == "yes" and user_choice == "employer":
             is_on = False
             print(f"Currently the machine has ${money}")
+        elif answer == "yes" and user_choice == "employee":
+            is_on = False
     else:
         count += 1
         if count == 5:
